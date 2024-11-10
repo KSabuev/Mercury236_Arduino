@@ -53,6 +53,9 @@ int Mercury236::getI(float *I) {
 int Mercury236::getPhasesAngle(float *A) {
     return getThreeValues(A, 0x51, 100.0);
 }
+int Mercury236::getFreq(float *F) {
+    return getThreeValues(F, 0x40, 100.0);
+}
 
 int Mercury236::getCosF(float *CosF) {
     return getFourValues(CosF, 0x30, 1000.0);

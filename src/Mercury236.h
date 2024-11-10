@@ -26,6 +26,7 @@ public:
     int getU(float *U);
     int getI(float *I);
     int getPhasesAngle(float *A);
+    int getFreq(float *F);
 
     int getCosF(float *CosF);
     int getActivePower(float *P);
